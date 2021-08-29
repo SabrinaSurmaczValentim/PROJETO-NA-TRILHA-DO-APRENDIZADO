@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img-RDE07/favicon.ico" type="image/x-icon">
+    <title>BRANCHES E HOSPEDAGEM</title>
+</head>
+<body>
+    <h1>BRANCHES E HOSPEDAGEM</h1>
+        
+        <h2>SUMÁRIO</h2>
+        <ul>
+            <li><a href="#Branches">BRANCHES</a></li>
+            <li><a href="#Tipos de Branches">TIPOS DE BRANCHES</a></li>
+            <li><a href="#Como utilizar as branches">COMO UTILIZAR AS BRANCHES?</a></li>
+            <li><a href="#Merge">MERGE</a></li>
+            <li><a href="#Hospedagem">HOSPEDAGEM</a></li>
+        </ul>
+
+        <h2><a name="Branches">BRANCHES</a></h2>
+            <p>São <b>ramificações</b> de um <b>projeto de software</b> ou <b>documento</b> e tem como objetivo o <b>desenvolvimento paralelo</b> de:</p>
+            <ul>
+                <li>Novas funcionalidades;</li>
+                <li>Correção de problemas;</li>
+                <li>Alteração de código.</li>
+            </ul>
+            <figure>
+                <img src="img-RDE07/Branches.png" alt="Branches">
+            </figure>
+        
+        <h2><a name="Tipos de Branches">TIPOS DE BRANCHES</a></h2>
+            <p>Quando temos um projeto e o projeto vai ser colocado em um repositório, podemos colocar ele na <b>Branch Master ou na Branch Secundária.</b> </p>
+            <figure>
+                <img src="img-RDE07/Tipos de branch.png" alt="Tipos de branch">
+            </figure>
+            <p>Quando colocamos um projeto no repositório, provavelmente ele vai ficar na Branch Master. Posso realizar alterações no projeto e realizo o commit.</p>
+            <figure>
+                <img src="img-RDE07/Branch Master.png" alt="Branch Master">
+            </figure>
+            <p>Porém, imagine que a equipe do Mercado Livre está realizando <b>alterações na Branch Master</b> e realizando o commit, enquanto os usuários estão fazendo as compras, <b>há muita chance de acontecer algum problema.</b>  <b>A forma correta é fazer alterações em Brachs secundários (não vão fazer alterações na Master)</b> e não no Branch Master. Quando há certeza que está tudo certo pode fazer o merge, ou seja, a mesclagem das Braches Secundárias com a Branch Master.<br>OBSERVAÇÃO: A Branch Master também pode ser chamada de Brach Main. </p>
+            <figure>
+                <img src="img-RDE07/Branch Master + Branch Secundária.png" alt="Branch Master + Branch Secundária">
+            </figure>
+        
+        <h2><a name="Como utilizar as branches">COMO UTILIZAR AS BRANCHES?<br>EXEMPLOS PRÁTICOS</a></h2>
+            <p>No GitHub Desktop...</p>
+            <figure>
+                <img src="img-RDE07/New repository.png" alt="New repository">
+            </figure>
+            <figure>
+                <img src="img-RDE07/Repositório primeiro_site.png" alt="Repositório primeiro_site">
+            </figure>
+            <p>Criou um respositório local, para que ele esteja no site GitHub, precisa clicar no Publish repository ou clicar no Ctrl p. </p>
+            <figure>
+                <img src="img-RDE07/Publish repository 1.PNG" alt="Publish repository 1">
+            </figure>
+            <figure>
+                <img src="img-RDE07/Publish repository 2.PNG" alt="Publish repository 2">
+            </figure>
+            <figure>
+                <img src="img-RDE07/Open VSCode.PNG" alt="Open VSCode">
+            </figure>
+            <figure>
+                <img src="img-RDE07/primeiro_site index.png" alt="primeiro_site index">
+            </figure>
+            <p>DICA: SALVAMENTO AUTOMÁTICO<br>Alterando no VSCode já altera no GitHub Desktop.</p>
+            <figure>
+                <img src="img-RDE07/Salvamento automático.png" alt="Salvamento automático">
+            </figure>
+            <p>No GitHub Desktop...</p>
+            <figure>
+                <img src="img-RDE07/Inserindo o index.html commit.PNG" alt="Inserindo o index.html commit">
+            </figure>
+            <figure>
+                <img src="img-RDE07/Push.PNG" alt="Push">
+            </figure>
+            <p>No VSCode…</p>
+            <p>Posso alterar algumas coisas no código...</p>
+            <figure>
+                <img src="img-RDE07/Alterando o index.PNG" alt="Alterando o index">
+            </figure>
+            <p>No GitHub Desktop…</p>
+            <p>Observe que o index.html está no Branch Main</p>
+            <figure>
+                <img src="img-RDE07/index.html Branch Main.png" alt="index.html Branch Main">
+            </figure>
+            <figure>
+                <img src="img-RDE07/Update index.html commit.PNG" alt="Update index.html commit">
+            </figure>
+            <figure>
+                <img src="img-RDE07/Push.PNG" alt="Push">
+            </figure>
+            <p>Suponhamos que o index.html está visível para todos os usuários, então não pode fazer alteração nele. O ideal é criar uma nova branch.</p>
+            <p>No GitHub Desktop...</p>
+            <figure>
+                <img src="img-RDE07/New branch.png" alt="New branch">
+            </figure>
+            <figure>
+                <img src="img-RDE07/Branch secundaria 01.PNG" alt="Branch secundaria 01">
+            </figure>
+            <figure>
+                <img src="img-RDE07/Publish branch.PNG" alt="Publish branch">
+            </figure>
+            <figure>
+                <img src="img-RDE07/Open in VSCode.PNG" alt="Open in VSCode">
+            </figure>
+            <p>No VSCode…</p>
+            <p>Alterar o index.html da Branch Secundária 01</p>
+            <figure>
+                <img src="img-RDE07/Alterando o index da Branch Secundária 01.PNG" alt="Alterando o index da Branch Secundária 01">
+            </figure>
+            <p>No GitHub Desktop...</p>
+            <figure>
+                <img src="img-RDE07/Atualização do index branch secundária commit.PNG" alt="Atualização do index branch secundária commit">
+            </figure>
+            <figure>
+                <img src="img-RDE07/Push.PNG" alt="Push">
+            </figure>
+            <p>Se quiser realizar outras alterações basta seguir o processo já conhecido.<br>Se quiser criar outras branches secundárias, basta seguir também o processo já conhecido.<br><b>Bom, se fiz duas branches secundárias, preciso juntar depois de prontas na branch principal. Preciso criar um merge (junção entre as branches).</b></p>
+        
+        <h2><a name="Merge">MERGE</a></h2>
+            <p>Escolhe a Branch main no GitHub Desktop...</p>
+            <figure>
+                <img src="img-RDE07/Escolhendo a branch main.png" alt="Escolhendo a branch main">
+            </figure>
+            <figure>
+                <img src="img-RDE07/Merge.png" alt="Merge">
+            </figure>
+            <p>Exemplo: fazer a junção da Branch main com a branch secundaria-01</p>
+            <figure>
+                <img src="img-RDE07/Merge main com secundaria-01.PNG" alt="Merge main com secundaria-01">
+            </figure>
+            <figure>
+                <img src="img-RDE07/Push.PNG" alt="Push">
+            </figure>
+            <p>Exemplo: fazer a junção da Branch main com a branch secundaria--02</p>
+            <figure>
+                <img src="img-RDE07/Merge main com secundaria-02.PNG" alt="Merge main com secundaria-02">
+            </figure>
+            <p>No VSCode…</p>
+            <p>Clica em Accept Both Changes</p>
+            <figure>
+                <img src="img-RDE07/Accept Both Changes.png" alt="Accept Both Changes">
+            </figure>
+            <figure>
+                <img src="img-RDE07/Continue merge.PNG" alt="Continue merge">
+            </figure>
+            <figure>
+                <img src="img-RDE07/Push merge.PNG" alt="Push merge">
+            </figure>
+            <p>Agora a Branch main tem as versões da Branch secundária-01 e da Branch secundária--02</p>
+            <p>No GitHub Desktop...</p>
+            <p>Escolher a Branch que quer, por exemplo a secundaria--02.</p>
+            <figure>
+                <img src="img-RDE07/Update from main.png" alt="Update from main">
+            </figure>
+            <p>Agora o código da secundaria--2 é igual ao código da main </p>
+            <figure>
+                <img src="img-RDE07/Push update from main.PNG" alt="Push update from main">
+            </figure>
+            <p>Pode criar uma nova branch, a partir de uma que não seja main, ou seja, fazer uma branch da branch. </p>
+            <figure>
+                <img src="img-RDE07/secundaria-03.PNG" alt="secundaria-03">
+            </figure>
+            <figure>
+                <img src="img-RDE07/Publish secundaria-03.PNG" alt="Publish secundaria-03">
+            </figure>
+        
+        <h2><a name="Hospedagem">HOSPEDAGEM</a></h2>
+            <p>Hospedagem de um site - para que qualquer usuário com acesso à internet possa acessá-lo. Geralmente é necessário pagar pelo serviço de hospedagem, porém, existe um recurso do GitHub que é gratuito.<br>O <b>GitHub Pages</b> oferece <b>hospedagem gratuita de sites.</b> Basta criar uma conta e um <b>repositório público</b> e a URL será:<br>https: / /nomeusuario.github.io /repositorio</p>
+            <p>No site GitHub...</p>
+            <p>Clicar em Settings...</p>
+            <figure>
+                <img src="img-RDE07/Settings.PNG" alt="Settings">
+            </figure>
+            <p>Aí rola a página até encontrar GitHub Pages...</p>
+            <figure>
+                <img src="img-RDE07/GitHub Pages 1.PNG" alt="GitHub Pages 1">
+            </figure>
+            <figure>
+                <img src="img-RDE07/GitHub Pages 2.png" alt="GitHub Pages 2">
+            </figure>
+            <figure>
+                <img src="img-RDE07/Site publicado.PNG" alt="Site publicado">
+            </figure>
+            <p>OSERVAÇÃO: as vezes demora para carregar o site quando clica, basta esperar.<br>Se demorar demais para atualizar o site, fica página não encontrada, basta ir no GitHub Desktop, clica no repositório, abre no VSCode, faz alguma alteração, faz o commit e após push origin. Assim, agora irá funcionar. </p>
+            <p>Se um repositório está privado, não tem como fazer a hospedagem, então precisa alterar a licença...</p>
+            <figure>
+                <img src="img-RDE07/Mudar licença.PNG" alt="Mudar licença">
+            </figure>
+            <figure>
+                <img src="img-RDE07/Mudar licença 2.png" alt="Mudar licença 2">
+            </figure>
+</body>
+</html>
