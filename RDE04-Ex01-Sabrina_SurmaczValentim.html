@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img-RDE04/favicon.ico" type="image/x-icon">
+    <title>IMAGENS E LISTAS</title>
+</head>
+<body>
+    <h1>IMAGENS E LISTAS</h1>
+
+        <h3>O QUE É UMA IMAGEM?</h3>
+            <p>É uma <b>representação visual</b> de uma paisagem e/ou objeto por exemplo.</p>
+
+        <h3>O QUE É UMA IMAGEM DIGITAL?</h3>
+            <p>Imagem digital é a <b>representação de uma imagem bidimensional usando números binários codificados </b> de modo a permitir seu armazenamento, transferência, impressão ou reprodução, e seu processamento por meios eletrônicos. </p>
+
+        <h3>FORMATOS DE IMAGENS</h3> 
+            <p>Formatos de imagem são padrões de codificação, compressão e definição que determinam o tipo de arquivo gráfico, tais como: </p>
+            <ul>
+                <li><strong>.BMP</strong></li>
+                <li><strong>.TIFF</strong></li>
+                <li><strong>.GIF</strong></li>
+                <li><strong>.SVG</strong></li>
+                <li><strong>.ICO</strong></li>
+                <li><strong>.JPEG</strong></li>
+                <li><strong>.PNG</strong></li>
+            </ul>
+            <p><i>Eles deixam o arquivo com maior ou menor número de bytes, megabytes ou kbytes.</i></p>
+
+        <h3>FORMATOS MAIS UTILIZADOS</h3>
+            <dl>
+                <dt>JPEG</dt>
+                <dd>Preserva o fundo da imagem.</dd>
+                <dd>
+                    <figure>
+                        <img src="img-RDE04/Flor JPEG.jpg" alt="imagem JPEG">
+                        <figcaption>Imagem JPEG</figcaption>
+                    </figure>
+                </dd>
+                <dt>PNG</dt>
+                <dd>Não preserva o fundo.</dd>
+                <dd>
+                    <figure>
+                        <img src="img-RDE04/Flor PNG.png" alt="imagem PNG">
+                        <figcaption>Imagem PNG</figcaption>
+                    </figure>
+                </dd>
+            </dl>
+ 
+        <h3>LICENÇAS E REPOSITÓRIOS DE IMAGENS</h3>
+            <p>É necessário tomar <em>muito cuidado</em> com o uso das imagens pesquisadas nos navegadores, para colocar em um site por exemplo, porque pode até ser <em>processado</em>, já que as imagens são protegidas por direitos autorais. <br> Para usar as imagens, duas possibilidades são:</p>
+            <ol type="1">
+                <li>Utilizar as <big>Licenças Creative Commons</big> que permitem a utilização e distribuição gratuita das imagens: depois de digitar qual imagem deseja no navegador - ir em Imagens – Ferramentas – Direitos de uso – Licenças Creative Commons. </li>
+                <li>Usar os <big>Repositórios Gratuitos</big> como:</li>
+            </ol>
+            <ul>
+                <li>Unsplash</li>
+                <li>Wikimedia Commons</li>
+                <li>Pixabay</li>
+                <li>Rawpixel</li>
+                <li>FreePixel </li>
+                <li>Vintage Stock Photos</li>
+            </ul>
+
+        <h3>MARCAÇÃO DE IMAGENS</h3>
+            <p>As <b>tags de imagens e seus parâmetros</b> definem <b>as imagens e suas propriedades. </b></p>
+            <figure>
+                <img src="img-RDE04/Sintaxe - Imagem.PNG" alt="Sintaxe - Imagem">
+            </figure>
+            <p><i>Exemplo</i></p>
+            <figure>
+                <img src="img-RDE04/Exemplo sintaxe - imagem.PNG" alt="Exemplo sintaxe - imagem">
+            </figure>
+            <p><b>Não é recomendado fazer</b> o redimensionamento da imagem pelo Visual Studio Code, para colocar a imagem do tamanho adequado, pode por exemplo:</p>
+            <ol type="1">
+                <li>Utilizar o GIMP ou Photoshop.</li>
+                <li>Fazer o redimensionamento utilizando CSS.</li>
+            </ol>
+            <p><i>Observações</i></p>
+            <ul>
+                <li>src (source) – significa de onde está vindo a imagem.</li>
+                <li>imagem.extensão – a extensão pode ser JPEG, PNG...</li>
+            </ul>
+        <h3>TAGS FIGURE E FIGCAPITION</h3>
+            <p>As <b>tags figure e figcaption</b> foram definidas a partir do HTML 5 e servem para a organização do documento.</p>
+            <p><i>Sintaxe:</i></p>
+            <figure>
+                <img src="img-RDE04/Sintaxe - figure e figcaption.PNG" alt="Sintaxe - figure e figcaption">
+            </figure>
+            <p><i>Exemplo</i></p>
+            <figure>
+                <img src="img-RDE04/Exemplo sintaxe - figure e figcaption.PNG" alt="Exemplo sintaxe - figure e figcaption">
+            </figure>
+            <p><i>Observações</i></p>
+            <ul>
+                <li>&lt;figure&gt; e &lt;/figure&gt; no código, indicam que terá uma imagem.</li>
+                <li>Não existe a tag &lt;/img&gt; somente a tag &lt;img&gt;</li>
+            </ul>
+
+        <h3>MARCAÇÃO DE FAVICON</h3>
+            <p>Define um ícone de favoritos que aparece na barra de títulos.</p> 
+            <figure>
+                <img src="img-RDE04/Exemplo de ícone.PNG" alt="Exemplo de ícone">
+            </figure>
+            <p><i>Sintaxe:</i></p>
+            <figure>
+                <img src="img-RDE04/Sintaxe - favicon.PNG" alt="Sintaxe - favicon">
+            </figure>
+            <p><i>Observações</i></p>
+            <ul>
+                <li>icon – significa que é do tipo ícone </li>
+                <li>href – indica onde está o ícone</li>
+            </ul>
+            <p><big>Sites para fazer os ícones:</big></p>
+            <ul>
+                <li>Icon archive</li>
+                <li>Favicon.cc </li>
+                <li>Favicon.io </li>
+            </ul>
+
+        <h3>MARCAÇÃO DE LISTAS</h3>
+            <p>As <b>tags de listas</b> definem: <b>listas não-ordenadas, listas ordenadas e lista detalhada. </b></p>
+            <dl>
+                <dt>LISTAS NÃO-ORDENADAS</dt>
+                <dd><i>Sintaxe:</i></dd>
+                <dd>
+                    <figure>
+                        <img src="img-RDE04/Sintaxe - lista não-ordenada.PNG" alt="Sintaxe - lista não-ordenada">
+                    </figure>
+                </dd>
+                <dt>LISTAS ORDENADAS</dt>
+                <dd><i>Sintaxe:</i></dd>
+                <dd>
+                    <figure>
+                        <img src="img-RDE04/Sintaxe - lista ordenada.PNG" alt="Sintaxe - lista ordenada">
+                    </figure>
+                </dd>
+                <dt>LISTA DETALHADA</dt>
+                <dd><i>Sintaxe:</i></dd>
+                <dd>
+                    <figure>
+                        <img src="img-RDE04/Sintaxe - lista detalhada.PNG" alt="Sintaxe - lista detalhada">
+                    </figure>   
+                </dd>
+             </dl>
+            <p><big>Resumo das listas</big></p>
+            <ul>
+                <li>&lt;ul&gt; - tag de lista não ordenada.</li>
+                <li>&lt;ol&gt; - tag de lista ordenada.</li>
+                <li>&lt;dl&gt; - tag de lista detalhada.</li>
+            </ul>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIPERLINKS</title>
+    <link rel="icon" href="img-RDE05/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>HIPERLINKS</h1>
+
+        <p><strong>Hiperlink ou link</strong> é uma referência dentro de um documento em hipertexto para:</p>
+        <ul>
+            <li><strong>Outras partes do mesmo documento</li>
+            <li>Outros documentos</li>
+            <li>Arquivos</li>
+            <li>Endereço eletrônico</strong></li>
+        </ul>
+
+        <h2>TIPOS DE HIPERLINKS</h2>
+            <ul>
+                <li><a href="#EXTERNOS OU REMOTOS">EXTERNOS OU REMOTOS</a></li>
+                <li><a href="#INTERNOS">INTERNOS</a></li>
+                <li><a href="#LOCAIS">LOCAIS</a></li>
+                <li><a href="#PARA DOWLOADS DE ARQUIVOS">PARA DOWLOADS DE ARQUIVOS</a></li>
+                <li><a href="#EM IMAGENS">EM IMAGENS</a></li>
+                <li><a href="#PARA ENDEREÇO ELETRÔNICO">PARA ENDEREÇO ELETRÔNICO</a></li>
+            </ul>
+
+        <h2>MARCAÇÃO DE HIPERLINKS</h2>
+            <p>Utiliza-se a tag <b>&lt;a></b> e a propriedade <b>href</b>, que faz a referência para o conteúdo desejado.</p>
+            <h3>SINTAXE</h3>
+                <figure>
+                    <img src="img-RDE05/Sintaxe - Marcação de Hiperlinks.PNG" alt="Marcação de Hiperlinks">
+                </figure>
+
+        <h2><a name="EXTERNOS OU REMOTOS">HIPERLINKS EXTERNOS OU REMOTOS</a></h2>
+            <p>São links que referenciam <b>sites ou páginas da web.</b></p>
+            <h3>SINTAXE</h3>
+                <figure>
+                    <img src="img-RDE05/Sintaxe - Hiperlinks externos.PNG" alt="Hiperlinks externos">
+                </figure>
+            <h3>EXEMPLO</h3>   
+                <figure>
+                    <img src="img-RDE05/Exemplo de hiperlink externo.PNG" alt="Link Class">
+                </figure>
+                <p>Como aparece quando abre o documento em algum navegador:</p>
+                <p><a href="https://classroom.google.com/h">GOOGLE CLASSROOM</a></p>
+                <p>Nota-se que quando clica no link, ele abre o Class na mesma aba. Para que seja aberto em outra aba é necessário colocar target = _blank:</p>
+                <figure>
+                    <img src="img-RDE05/Exemplo de hiperlink externo target.PNG" alt="Exemplo de hiperlink externo target">
+                </figure>
+                <figure>
+                    <img src="img-RDE05/Outra aba.PNG" alt="Outra aba">
+                </figure>
+                <p>Outras possibilidades para acrescentar na sintaxe de links externos:</p>
+                <dl>
+                    <dt><big>rel</big></dt>
+                    <dd>Indica o tipo de link.</dd>
+                    <dd>
+                        <figure>
+                            <img src="img-RDE05/Exemplo de hiperlink externo rel.PNG" alt="Exemplo de hiperlink externo rel">
+                        </figure>
+                    </dd>
+                    <dt><big>hreflang</big></dt>
+                    <dd>Define a linguagem. Nesse exemplo, avisa o navegador que o site está em inglês,assim ele já ativa a opção de traduzir:</dd>
+                    <dd>
+                        <figure>
+                            <img src="img-RDE05/Link w3schools.PNG" alt="Link w3schools">
+                        </figure>
+                        <figure>
+                            <img src="img-RDE05/Tradução.PNG" alt="Tradução">
+                        </figure>
+                    </dd>
+                </dl>
+
+        <h2><a name="INTERNOS">HIPERLINKS INTERNOS</a></h2>        
+            <p>São links que apontam a um <b>lugar diferente dentro da mesma página</b>, sendo muito eficazes para documentos extensos.</p>
+            <h3>SINTAXE</h3>
+                <figure>
+                    <img src="img-RDE05/Sintaxe - Hiperlinks internos.PNG" alt="Sintaxe - Hiperlinks internos">
+                </figure>
+            <h3>EXEMPLO</h3>  
+                <figure>
+                    <img src="img-RDE05/Exemplo de hiperlink interno href.PNG" alt="Exemplo de hiperlink interno href">
+                </figure>
+                <figure>
+                    <img src="img-RDE05/Exemplo de hiperlink interno name.PNG" alt="Exemplo de hiperlink interno name">
+                </figure>
+                <p></p>
+                <p>Como aparece quando abre o documento em algum navegador:</p>
+                <figure>
+                    <img src="img-RDE05/Exemplo prático hiperlink interno 1.PNG" alt="Exemplo prático hiperlink interno">
+                </figure>
+                <p>Quando clica no link aparece (esta é uma imagem capturada por isso não dá para clicar, se quiser clicar no link, basta ir no início deste documento e testar)</p>
+                <figure>
+                    <img src="img-RDE05/Exemplo prático hiperlink interno 2.PNG" alt="Exemplo prático hiperlink interno">
+                </figure>
+
+        <h2><a name="LOCAIS">HIPERLINKS LOCAIS</a></h2>  
+            <p>São links que apontam para <b>outras páginas dentro de um mesmo site.</b></p>
+            <h3>SINTAXE</h3>
+                <figure>
+                    <img src="img-RDE05/Sintaxe - Hiperlinks locais.PNG" alt="Sintaxe - Hiperlinks locais">
+                </figure>
+            <h3>EXEMPLO</h3>  
+                <figure>
+                    <img src="img-RDE05/Revisão HTML.PNG" alt="Revisão HTML">
+                </figure>
+                <p>Como aparece quando abre o documento em algum navegador:</p>
+                <p><a href="RDE04-Ex01-Sabrina_SurmaczValentim.html" target=_blank>Revisão HTML</a></p>
+
+        <h2><a name="PARA DOWLOADS DE ARQUIVOS">HIPERLINKS PARA DOWLOADS DE ARQUIVOS</a></h2>  
+            <p>São links que apontam para arquivos e possibilitam realizar <b>dowload</b> desses arquivos.</p>
+            <h3>SINTAXE</h3>
+                <figure>
+                    <img src="img-RDE05/Sintaxe - Hiperlinks para dowloads de arquivos.PNG" alt="Sintaxe - Hiperlinks para dowloads de arquivos">
+                </figure>
+                <p><a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" hreflang="en">Media-Types</a> - é um identificador padrão usado na Internet para indicar o tipo de dado que um arquivo contém.</p>
+            <h3>EXEMPLO</h3>  
+                <figure>
+                    <img src="img-RDE05/Exemplo de hiperlink para dowloads de arquivos.PNG" alt="Exemplo de hiperlink para dowloads de arquivosf">
+                </figure>
+                <p>Como aparece quando abre o documento em algum navegador:</p>
+                <p><a href="img.zip" download="img.zip" type="application/zip">Download</a></p>
+
+        <h2><a name="EM IMAGENS">HIPERLINKS EM IMAGENS</a></h2>  
+            <p>Envolve a <b>tag de imagem</b> com a tag de <b></b>hiperlink.</b></p>
+            <h3>SINTAXE</h3>
+                <figure>
+                    <img src="img-RDE05/Sintaxe - Hiperlinks em imagens.PNG" alt="Sintaxe - Hiperlinks em imagens">
+                </figure>
+                <h3>EXEMPLO</h3>  
+                    <figure>
+                        <img src="img-RDE05/Exemplo de hiperlink em imagens.PNG" alt="Exemplo de hiperlink em imagens">
+                    </figure>
+                    <p>Como aparece quando abre o documento em algum navegador (quando clica na imagem, vai abrir uma imagem maior)</p>
+                    <a href="img-RDE05/Tim_Berners-Lee-Knight_full.jpg"><img src="img-RDE05/TimBernersLee.jpg"></a>
+
+        <h2><a name="PARA ENDEREÇO ELETRÔNICO">HIPERLINKS PARA ENDEREÇO ELETRÔNICO</a></h2>  
+            <p>São link que apontam para um <b>endereço eletrônico.</b></p>
+            <h3>SINTAXE</h3>
+                <figure>
+                    <img src="img-RDE05/Sintaxe - Hiperlinks para endereço eletrônico.PNG" alt="Sintaxe - Hiperlinks para endereço eletrônico">
+                </figure>
+                <h3>EXEMPLO</h3>  
+                    <figure>
+                        <img src="img-RDE05/Exemplo de hiperlink para endereço eletrônico.PNG" alt="Exemplo de hiperlink para endereço eletrônico">
+                    </figure>
+                    <p>Como aparece quando abre o documento em algum navegador:</p>
+                    <a href="mailto:sabrinasvalentim@gmail.com">e-mail</a>
+</body>
+</html>
