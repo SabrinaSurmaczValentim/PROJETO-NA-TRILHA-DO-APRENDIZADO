@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(186, 245, 210);
+    font-family:cursive;
+    font-size:15px;
+}
+h1{
+    background-color: rgb(245, 166, 176);
+    color:rgb(65, 172, 109);
+    text-align: center;
+    font-size: 28px;
+}
+h2{
+    color: rgb(65, 172, 109);
+}
+h3{
+    color:rgba(240, 116, 133, 0.829);
+}
+i{
+    color:rgb(12, 77, 12);
+}
+ul{
+    color:rgb(223, 117, 133);
+}
+b{
+    color:rgb(223, 117, 133);
+}
+a{
+    color:rgb(12, 77, 12);
+}
