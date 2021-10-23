@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELETORES PERSONALIZADOS</title>
+    <link rel="icon" href="img-RDE11/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="RDE11_estilo.css">
+</head>
+<body>
+    <h1 id="principal">ELEMENTOS BLOCK-LEVEL, INLINE E SELETORES PERSONALIZADOS</h1>
+
+        <div>
+            <h2>Sumário</h2>
+            <ul>
+                <li><a href="#dica">Dica</a></li>
+                <li><a href="#agrupamento">Agrupamento de elementos</a></li>
+                <li><a href="#block-level">Elementos Block-level</a></li>
+                <li><a href="#inline">Elementos Inline</a></li>
+                <li><a href="#seletores">Seletores Personalizados</a></li>
+                <li><a href="#id">Seletor do tipo id</a></li>
+                <li><a href="#classe">Seletor do tipo classe</a></li>
+                <li><a href="#pseudo-classes">Pseudo-Classes</a></li>
+                <li><a href="#pseudo-elementos">Pseudo-Elementos</a></li>
+            </ul>
+        </div>
+
+        <div id="dica">
+            
+            <h2><a name="dica">Dica</a></h2>
+            <p>
+                Se quiser colocar várias partes do texto com h2 ou outra tag:<br>
+                Segura a tecla Alt e vai selecionando as partes...
+            </p>
+            <figure>
+                <img src="img-RDE11/dica 1.png" alt="dica 1">
+            </figure>
+            <p>Após, clica em Ctrl+shift+p, aperta em Quebrar Linha com Abreviação...</p>
+            <figure>
+                <img src="img-RDE11/dica 1.1.png" alt="dica 1.1">
+            </figure>
+            <p>
+                E escolhe a tag desejada, nesse caso h2<br>
+                Assim, todas as partes selecionadas, terão essa tag:
+            </p>
+            <figure>
+                <img src="img-RDE11/dica 1.2.png" alt="dica 1.2">
+            </figure>
+        
+        <div class="agrupamento">
+            <h2><a name="agrupamento">Agrupamento de elementos</a></h2>
+                <p>Os elementos &lt;div> e &lt;span> são usados para agrupar e estruturar um documento e são frequentemente usados em conjunto com os atributos class e id.</p>
+        </div>
+
+        <div class="agrupamento">
+            <h2><a name="block-level">Elementos Block-level</a></h2>
+                <p>O elemento &lt;div> é um elemento block-level. Tem a função de agrupar elementos html, definindo blocos de contéudo sempre iniciando uma nova linha e ocupando toda a linha.</p>
+                <p>Exemplo 1:</p>
+                <div id="exemplo1">Bloco 1</div>
+                <div id="exemplo2">Bloco 2</div>
+                <p>Exemplo 2:<br>Em um arquivo HTML no VS Code...</p>
+                <figure>
+                    <img src="img-RDE11/div 1.PNG" alt="div 1">
+                </figure>
+                <p>Após, ainda no VS Code, no arquivo css...</p>
+                <figure>
+                    <img src="img-RDE11/div 2.PNG" alt="div 2">
+                </figure>
+                <p>Como aparece quando abre em um navegador...</p>
+                <figure>
+                    <img src="img-RDE11/div 3.PNG" alt="div 3">
+                </figure>
+                <p>Nota-se que não há divisórias entre os blocos, para fazer, ir no no VS Code, no arquivo css e colocar margem...</p>
+                <figure>
+                    <img src="img-RDE11/div 4.PNG" alt="div 4">
+                </figure>
+                <p>Como aparece quando abre em um navegador...</p>
+                <figure>
+                    <img src="img-RDE11/div 5.PNG" alt="div 5">
+                </figure>
+        </div>
+
+        <div class="agrupamento">
+            <h2><a name="inline">Elementos Inline</a></h2>
+                <p>O elemento &lt;span> é um elemento inline. É um <span>elemento neutro</span> embutido que marca um bloco dentro de uma mesma linha ou parágrafo. Pode ser usado pelo CSS para estilização de partes específicas do conteúdo do documento HTML. Resumindo, é como quando temos um texto e grifamos as partes mais importantes com um marca-texto, que nesse caso, é a tag span.</p>
+                <p>Exemplo:</p>
+                <figure>
+                    <img src="img-RDE11/span 1.PNG" alt="span 1">
+                </figure>
+                <p>Porém, nota-se que não aconteceu nada no navegador...</p>
+                <figure>
+                    <img src="img-RDE11/span 2.png" alt="span 2">
+                </figure>
+                <p>Assim, deve-se ir no arquivo css e fazer a estilização...</p>
+                <figure>
+                    <img src="img-RDE11/span 3.png" alt="span 3">
+                </figure>
+        </div>
+
+        <div class="personalizado">
+            <h2><a name="seletores">Seletores Personalizados</a></h2>
+                <p>Possibilita personalizar tags do documento HTML para estilização. Temos os seletores do tipo classe e o seletor do tipo id...</p>
+
+                <h3><a name="id">Seletor do tipo id</a></h3>
+                    <p>O seletor de id usa o atributo id de um elemento HTML para selecionar um elemento específico. Cada id é única. O seletor de id é representado por “#”.</p>
+                    <p>Exemplo 1:<br>Em um arquivo HTML no VS Code...</p>
+                    <figure>
+                        <img src="img-RDE11/id 1.PNG" alt="id 1">
+                    </figure>
+                    <p>Após, ainda no VS Code, no arquivo css...</p>
+                    <figure>
+                        <img src="img-RDE11/id 2.PNG" alt="id 2">
+                    </figure>
+                    <p>Observação:</p> 
+                    <dl>
+                        <dt>O rgb mistura as cores:</dt>
+                        <dd>r-red(vermelho)</dd>
+                        <dd>g-green(verde)</dd>
+                        <dd>b-blue(azul)</dd>
+                        <dt>No arquivo HTML, entre " ", coloca o nome que deseja.</dt>
+                    </dl>
+                    <p>Exemplo 2:<br>Em um arquivo HTML no VS Code...</p>
+                    <figure>
+                        <img src="img-RDE11/id 3.PNG" alt="id 3">
+                    </figure>
+                    <p>Após, ainda no VS Code, no arquivo css...</p>
+                    <figure>
+                        <img src="img-RDE11/id 4.PNG" alt="id 4">
+                    </figure>
+                    
+                <h3><a name="classe">Seletor do tipo classe</a></h3>
+                    <p>O seletor de classe seleciona elementos HTML com um atributo de classe específico. O seletor de classe é representado por um ponto, “.”, e tem como alvo elementos com um determinado valor para seu atributo class. Para casos em que haja necessidade de mais de um elemento com a mesma identificação usamos o atributo class.</p>
+                    <p>Exemplo:<br>
+                        Observe que há várias tags div, só que não quero que elas fiquem estilizadas da mesma forma, quero que 3 blocos (representados pelos retângulos vermelhos) fiquem de um jeito (para isso utilizamos o seletor do tipo classe), um bloco (representado pelo retângulo amarelo) seja estilizado de outra forma (para isso utilizamos o seletor id) e um bloco (representados pelo retângulo verde) seja estilizado diferente dos outros blocos (para isso também utilizamos o seletor id)...
+                    </p>
+                    <figure>
+                        <img src="img-RDE11/div 6.png" alt="div 6">
+                    </figure>
+                    <p>Dessa forma, no VS Code, em um arquivo HTML...</p>
+                    <figure>
+                        <img src="img-RDE11/class 1.PNG" alt="class 1">
+                    </figure>
+                    <p>Após, ainda no VS Code, no arquivo css...</p>
+                    <figure>
+                        <img src="img-RDE11/class 2.PNG" alt="class 2">
+                    </figure>
+                    <p>Outra maneira, mas que fica do mesmo jeito no navegador, é utilizar só .agrupamento...</p>
+                    <figure>
+                        <img src="img-RDE11/class 3.PNG" alt="class 3">
+                    </figure>
+
+                <div class="pseudo">
+                    <h3><a name="pseudo-classes">Pseudo-Classes</a></h3>
+                        <p>Usada para definir um estado especial de um elemento. O seletor de classe é representado por dois pontos, “:”. Estão relacionados a um elemento ou uma classe. </p>
+                        <span>
+                            <p>Exemplo de Pseudo-Classes:</p>
+                            <p><a id="h" href="https://www.w3schools.com/cssref/sel_hover.asp" hreflang="en" target="_blank">HOVER</a></p>
+                            <p><a id="a" href="https://www.w3schools.com/cssref/sel_active.asp" hreflang="en" target="_blank">ACTIVE</a></p>
+                            <p><a id="v" href="https://www.w3schools.com/cssref/sel_visited.asp" hreflang="en" target="_blank">VISITED</a></p>
+                        </span>
+                        <p>Exemplo :<br>Há várias opções de pseudo-classes, como já mencionado, a hover é uma, que ao passar o mouse, muda para o que definimos entre chaves...<br>Em um arquivo HTML no VS Code...</p>
+                        <figure>
+                            <img src="img-RDE11/hover.PNG" alt="hover">
+                        </figure>
+                        <h4>Curiosidade</h4>
+                        <p>Quero que o texto dentro da tag span, que está dentro da classe pseudo, não apareça de imediato, mas sim só quando passar o mouse:</p>
+                        <figure>
+                            <img src="img-RDE11/curiosidade 1.PNG" alt="curiosidade 1">
+                        </figure>
+                        <p>No VS Code, no arquivo css...</p>
+                        <figure>
+                            <img src="img-RDE11/curiosidade 2.PNG" alt="curiosidade 2">
+                        </figure>
+                </div>
+
+                <h3><a name="pseudo-elementos">Pseudo-Elementos</a></h3>
+                    <p>Usado para estilizar partes específicas de um elemento.O seletor de classe é representado por dois pontos seguido de dois pontos, “::”. Há vários Pseudo-Elementos, como...</p>
+                    <figure>
+                        <img src="img-RDE11/pe 1.png" alt="pe 1">
+                    </figure>
+                    <p>Exemplo:<br>Quando seleciono no navegador uma frase, que no arquivo em html está entre a tag h3...</p>
+                    <figure>
+                        <img src="img-RDE11/pe 2.png" alt="pe 2">
+                    </figure>
+                    <p>Se quero que ao selecionar fique diferente, posso utilizar o Pseudo-Elemento selection...Então no arquivo css...</p>
+                    <figure>
+                        <img src="img-RDE11/pe 3.PNG" alt="pe 3">
+                    </figure>
+                    <p>Quando abre o documento HTML em um navegador...</p>
+                    <figure>
+                        <img src="img-RDE11/pe 4.png" alt="pe 4">
+                    </figure>
+        </div>
+</body>
+</html>

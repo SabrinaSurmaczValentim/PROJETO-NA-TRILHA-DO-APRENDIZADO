@@ -1,0 +1,99 @@
+div{
+    background-color: purple;
+    margin:10px;
+}
+
+span{
+    font-weight: bold; /*"peso de fonte", usado para dar ênfase no texto - bold(negrito)*/
+}
+
+h1#principal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(83,58,109);
+    background-color: rgb(29,9,48);
+    border:2px solid rgb(138,46,224);
+}
+
+div.agrupamento{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(39,7,70);
+    background-color: rgba(29,9,48,0.616);
+    border:2px solid gray;
+    margin:20px;
+    padding: 10px;;
+}
+
+div#exemplo1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkblue;
+    border:1px solid cadetblue;
+    margin: 10px;
+    padding: 10px;
+    width: 80px; /*mudar a largura*/
+    height: 30px; /*mudar a altura*/
+}
+
+div#exemplo2{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(208,211,8);
+    border:1px solid orange;
+    margin:10px;
+    padding: 10px;
+    width:100px;
+    height:50px;
+}
+
+.personalizado{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(216,197,233,0.616);
+    border:2px solid gray;
+    margin:10px;
+    padding:10px;
+}
+
+.personalizado:hover{
+    color:rgb(39,7,70);
+    background-color: rgba(29,9,48,0.616);
+    margin:30px;
+    padding:20px;
+}
+
+a#h, a#a, a#v{
+    color:green;
+}
+
+a#h:hover{
+    color:rgb(59, 1, 10);
+    background-color: pink;
+}
+
+a#a:active{
+    color:rgb(5, 39, 7);
+    background-color:rgb(171, 223, 171);
+}
+
+a#v:visited{
+    color:rgb(39, 23, 184);
+    background-color:rgb(255, 183, 88);
+}
+
+.pseudo > span{
+    display:none; /*tudo o que estiver envolvido pelo span, desaparece*/
+}
+
+.pseudo:hover > span{
+    display:block; /*quando passar o mouse, vai aparecer o texto que não estava exibido*/
+    background-color:black;
+}
+
+h3::selection{
+    color:red;
+    background-color: yellow;
+}
+
+
+
+
+
+
