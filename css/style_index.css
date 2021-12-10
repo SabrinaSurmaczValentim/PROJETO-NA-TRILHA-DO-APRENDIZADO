@@ -1,0 +1,174 @@
+body{ 
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 95%; 
+    margin: 0 auto; /*fica centralizado*/
+    background-color:rgb(213, 252, 213);
+}
+
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border-radius: 5px; 
+    margin-top: 33px;
+    float: right;
+    width: 70%;
+}
+
+.logo img{
+    width:60%; /*deixar % pq redimensiona sozinho*/
+    margin-top: 45px;
+    padding-left:21%;
+}
+
+.navegacao{
+    overflow: hidden; /*ajusta o conteúdo no box e esconde a barra de rolagem*/
+}
+
+.navegacao a{
+    float: right;
+    display: block;
+    color:black;
+    text-decoration: none; /*tira o sublinhado embaixo do link*/
+    text-align: right;
+    padding: 10px 10px; /*espaçamento entre os links, 10px top e right e 10px bottom e left*/
+}
+
+.navegacao a:hover{
+    color:#3E6152;
+    background-color: #3BE6A9;
+}
+
+div.principal a{
+    color: #3BE6A9;
+    text-decoration: none;
+}
+
+div.principal a:hover{
+    background-color:rgba(161, 243, 161, 0.295);
+}
+
+div#html{
+    width: 25%;
+    background-color: #0d583a; 
+    padding:0px 30px 15px 2px;
+    float:left;
+    border-radius: 5px; 
+    margin-top: 33px;
+    text-align: justify;
+    height: 576px;
+    color:white;
+}
+
+h1#titulohtml{
+   color:black;
+   width: 100px; 
+   text-align: center;
+   margin-left: 120px;
+}
+
+span{
+    background-color: #3BE6A9 ;
+}
+
+div#css1{
+    float:right;
+    width: 30.5%;
+    height: 80px;
+    margin-top: 65px;
+    background-image: linear-gradient(to bottom, #083322,#3BEDA6); 
+    border-radius: 5px; /*arredondar borda*/  
+    padding: 28px 20px 30px 20px;
+    text-align: center;
+    color:white;
+}
+
+div#css2{
+    float:right;
+    width: 30.5%;
+    height: 80px;
+    margin-right: 36px;
+    margin-top: 65px;
+    background-image: linear-gradient(to bottom, #083322,#3BEDA6);
+    border-radius: 5px; /*arredondar borda*/ 
+    padding: 39px 20px 20px 20px;
+    text-align: center;  
+    color:white; 
+}
+
+div#css3{
+    float:right;
+    width: 30.5%;
+    height: 80px;
+    margin-top: 33px;
+    background-image: linear-gradient(to bottom, #083322,#3BEDA6); 
+    border-radius: 5px; /*arredondar borda*/  
+    padding: 39px 20px 11px 20px;
+    text-align: center;
+    color:white;
+}
+
+div#css4{
+    float:right;
+    width: 29%;
+    height: 80px;
+    margin-right: 36px;
+    margin-top: 33px;
+    background-image: linear-gradient(to bottom, #083322,#3BEDA6);
+    border-radius: 5px; /*rredondar borda*/  
+    padding: 28px 30px 22px 30px;
+    text-align: center;
+    color:white;
+}
+
+div#titulocss{
+    position: absolute;
+    color:black;
+    margin-top:260px;
+    margin-left:810px;  
+}
+
+div#titulogithub{
+    position: absolute;
+    color:black;
+    margin-top:636px;
+    margin-left:580px;  
+}
+
+div#git1{
+    position: absolute;
+    width: 42.9%;
+    height: 80px;
+    margin-top: 730px;
+    background-image: linear-gradient(to bottom, #083322,#3BEDA6); 
+    border-radius: 5px; /*arredondar borda*/  
+    padding: 39px 20px 11px 20px;
+    text-align: center;
+    color:white;
+}
+
+div#git2{
+    position: absolute;
+    width: 42.9%;
+    height: 80px;
+    margin-top: 730px;
+    margin-left: 660px;;
+    background-image: linear-gradient(to bottom, #083322,#3BEDA6); 
+    border-radius: 5px; /*arredondar borda*/  
+    padding: 39px 20px 11px 20px;
+    text-align: center;
+    color:white;
+}
+
+div#titulojava{
+    position: absolute;
+    color:black;
+    margin-top:875px;
+    margin-left:620px;  
+}
+
+.rodape{
+    color:darkgray;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+}
