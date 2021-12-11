@@ -6,7 +6,31 @@ body{
     text-align: justify;
 }
 
+h2::selection{
+    background-color: rgba(166, 226, 166, 0.616);
+}
+
 h3::selection{
+    background-color: rgba(166, 226, 166, 0.616);
+}
+
+a::selection{
+    background-color: rgba(166, 226, 166, 0.616);
+}
+
+b::selection{
+    background-color: rgba(166, 226, 166, 0.616);
+}
+
+i::selection{
+    background-color: rgba(166, 226, 166, 0.616);
+}
+
+ul::selection{
+    background-color: rgba(166, 226, 166, 0.616);
+}
+
+p::selection{
     background-color: rgba(166, 226, 166, 0.616);
 }
 
@@ -17,7 +41,7 @@ div.fixo{
     position: fixed;
     width: 300px;
     height:200 px;
-    top:0px;
+    top:60px;
     right:0px;
 }
 
@@ -86,3 +110,72 @@ p.img{
     text-align: center;
 }
 
+div#sumario{
+    background-color: #3BE6A9 ;
+}
+
+div#dica{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span{
+    font-weight: bold; /*"peso de fonte", usado para dar ênfase no texto - bold(negrito)*/
+    background-color: #3BE6A9 ;
+}
+
+div.agrupamento{
+    border:2px solid #0d583a;
+    margin:20px;
+    padding: 10px;;
+}
+
+div#exemplo1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(6, 99, 86);
+    border:5px solid rgb(6, 49, 6);
+    margin: 10px;
+    padding: 10px;
+    width: 80px; /*mudar a largura*/
+    height: 20px; /*mudar a altura*/
+}
+
+div#exemplo2{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #3BE6A9;
+    border:1px solid rgb(6, 49, 6);
+    margin:10px;
+    padding: 10px;
+    width:100px;
+    height:20px;
+}
+
+.personalizado{
+    color:rgb(13, 49, 13);
+    background-color: white;
+    padding:20px;
+}
+
+.personalizado:hover{
+    background-color:rgb(186, 245, 210);
+    border:2px solid rgb(13, 49, 13);
+    margin:20px;
+    padding:10px;
+}
+
+a#a:active{
+    color:rgb(5, 146, 116);
+    background-color: white;;
+}
+
+a#v:visited{
+    color:rgb(5, 146, 116);
+}
+
+.pseudo > span{
+    display:none; /*tudo o que estiver envolvido pelo span, desaparece*/
+}
+
+.pseudo:hover > span{
+    display:block; /*quando passar o mouse, vai aparecer o texto que não estava exibido*/
+}
