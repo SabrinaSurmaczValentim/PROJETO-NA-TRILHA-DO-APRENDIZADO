@@ -179,3 +179,87 @@ a#v:visited{
 .pseudo:hover > span{
     display:block; /*quando passar o mouse, vai aparecer o texto que não estava exibido*/
 }
+
+p.p{
+    background-color: rgba(166, 226, 166, 0.616);
+    display: inline;
+}
+
+.box1{
+    position: static;
+    background-color: green;
+    width: 400px;
+    height: 50px;
+}
+
+.box2{
+    position: relative;
+    background-color: rgba(110, 165, 110, 0.616);
+    width: 400px;
+    height: 50px;
+    bottom: 50px; /*a partir da parte em que foi colocado, apareça 50px para cima*/
+    left:450px;
+}
+
+.box3{
+    position: absolute;
+    background-color:#0d583a;
+    width: 400px;
+    height: 50px;
+    top:500px;
+    left:500px;
+}
+
+.box4{
+    position: fixed;
+    background-color: white;
+    width: 400px;
+    height: 50px;
+    top:0px;
+    left:0px;
+}
+
+.box5{
+    position: sticky;
+    background-color: #3BE6A9;
+    bottom:200px;
+    left:150px;
+}
+
+.layer1{
+    position: relative;
+    background-color: #3BE6A9;
+    width: 80px;
+    height: 70px;
+    bottom:0px;
+    left:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:2;
+}
+
+.layer2{
+    position: relative;
+    background-color: darkcyan;
+    width: 80px;
+    height: 70px;
+    bottom:20px;
+    left:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:1;
+}
+
+img#left{
+    float:left;
+}
+
+img#right{
+    float:right;
+}
+
+img#none{
+    float:none;
+}
