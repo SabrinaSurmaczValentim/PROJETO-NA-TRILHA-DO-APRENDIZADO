@@ -124,7 +124,7 @@ div#titulocss{
     position: absolute;
     color:black;
     margin-top:260px;
-    margin-left:810px;  
+    margin-left:800px;  
 }
 
 div#titulogithub{
@@ -167,8 +167,30 @@ div#titulojava{
 }
 
 .rodape{
-    color:darkgray;
-    font-size: 10px;
+    position: absolute;
+    margin-top: 1165px;
+    color:#0d583a; 
+    font-size: 15px;
     text-align: center;
-    padding: 20px;
+    width: 95%;
+    padding-bottom: 33px;
+}
+
+div#js{
+    position: absolute;
+    background-color: #0d583a; 
+    border-radius: 5px; 
+    text-align: center;
+    color:white;
+    margin-top: 970px;
+    width: 95%;
+    margin-bottom: 580px;
+}
+
+a.footer{
+    color:#0d583a; 
+}
+
+a.footer:hover{
+    background-color:#3BE6A9;
 }
