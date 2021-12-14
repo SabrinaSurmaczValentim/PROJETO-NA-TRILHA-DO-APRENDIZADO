@@ -14,7 +14,7 @@ header{
     width: 70%;
 }
 
-.logo img{
+div.logo img{
     width:60%; /*deixar % pq redimensiona sozinho*/
     margin-top: 45px;
     padding-left:21%;
@@ -70,6 +70,13 @@ span{
     background-color: #3BE6A9 ;
 }
 
+div#titulocss{
+    position: absolute;
+    color:black;
+    margin-top:260px;
+    margin-left:800px;  
+}
+
 div#css1{
     float:right;
     width: 30.5%;
@@ -120,13 +127,6 @@ div#css4{
     color:white;
 }
 
-div#titulocss{
-    position: absolute;
-    color:black;
-    margin-top:260px;
-    margin-left:800px;  
-}
-
 div#titulogithub{
     position: absolute;
     color:black;
@@ -166,16 +166,6 @@ div#titulojava{
     margin-left:620px;  
 }
 
-.rodape{
-    position: absolute;
-    margin-top: 1165px;
-    color:#0d583a; 
-    font-size: 15px;
-    text-align: center;
-    width: 95%;
-    padding-bottom: 33px;
-}
-
 div#js{
     position: absolute;
     background-color: #0d583a; 
@@ -185,6 +175,16 @@ div#js{
     margin-top: 970px;
     width: 95%;
     margin-bottom: 580px;
+}
+
+div.rodape{
+    position: absolute;
+    margin-top: 1165px;
+    color:#0d583a; 
+    font-size: 15px;
+    text-align: center;
+    width: 95%;
+    padding-bottom: 33px;
 }
 
 a.footer{
