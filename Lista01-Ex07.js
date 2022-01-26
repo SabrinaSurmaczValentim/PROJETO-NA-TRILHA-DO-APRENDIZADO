@@ -1,13 +1,3 @@
-/*Elabore um script em que seja possível entrar com dados de idade e sexo de 5
-pessoas. Exiba:
-a. Quantas pessoas são do sexo masculino e quantas pessoas são do sexo
-feminino.
-b. Quantas pessoas são maiores e menores de idade
-c. Qual o homem mais velho e mais novo
-d. Qual a mulher mais velha e mais nova
-e. Quantos homens e quantas mulheres são maiores de idade.*/
-
-
 
 var cont, idade, sexo, sm=0, acmh=0, hv, hn, maiorih=0, menorih=0, sf=0, acmm=0, maiorim=0, menorim=0, mv, mn,   maiori, menori
 
