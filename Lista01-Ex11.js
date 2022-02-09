@@ -1,0 +1,1 @@
+alert("Agora nós temos uma novidade para contar para você!")
