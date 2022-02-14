@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIO LOGIN E SENHA</title>
+    <link rel="stylesheet" href="css/style.form03.css">
+    <script type="text/javascript" src="FormEx04.js"></script>
+</head>
+<body>
+    <h1>FORMULÁRIO LOGIN E SENHA</h1>
+    <form name="formulario" action="cadastra.php" method="post" onsubmit="return Enviar()">
+        <!--Login-->
+        <label for="login">Login</label> 
+        <br><input type="text" id="login" placeholder="Digite o login">
+
+        <!--Senha-->
+        <br> <br> <label for="senha">Senha</label>
+        <br><input type="password" id="senha" placeholder="Digite sua senha">
+
+        <!--Botão Enviar-->
+        <br><input type="submit" class="enviar" value="Enviar">
+    </form>
+</body>
+</html>
