@@ -1,16 +1,49 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(213, 252, 213);
-    margin:0 auto;
-    text-align: justify;
+body{ 
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 95%; 
+    margin: 0 auto; /*fica centralizado*/
+    background-color:rgb(213, 252, 213);
 }
 
+div.fixo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border-radius: 5px; 
+    position: fixed;
+    width: 300px;
+    height:200 px;
+    top:60px;
+    right:0px;
+}
+
+.logo img{
+    width:80%; /*deixar % pq redimensiona sozinho*/
+    margin-top: 20px;
+    padding-left:11.3%;
+}
+
+.navegacao{
+    overflow: hidden; /*ajusta o conteúdo no box e esconde a barra de rolagem*/
+}
+
+.navegacao a{
+    float: right;
+    display: block;
+    color:black;
+    text-decoration: none; /*tira o sublinhado embaixo do link*/
+    text-align: right;
+    padding: 10px 10px; /*espaçamento entre os links, 10px top e right e 10px bottom e left*/
+}
+
+.navegacao a:hover{
+    color:#3E6152;
+    background-color: #3BE6A9;
+}
 h1{
     background-image: linear-gradient(to bottom, #083322,#3BEDA6);
     color:white;
     text-align: center;
     font-size: 28px;
-    margin: 30px;
 }
 
 form{
@@ -65,3 +98,4 @@ form label{
     text-align: center;
     font-size: 15px;
 }
+
